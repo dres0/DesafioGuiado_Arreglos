@@ -8,8 +8,9 @@ visitas_2 = [100, 80, 25, 30, 50, 250]
 
 def compara_arrays(arr1, arr2)
     # arr3 = []
-    # arr3.push(promedio)
-    # arr3 << promedio
+    # arr3.push(promedio(arr1))
+    # arr3 << promedio(arr2)
+    # arr3.max
     average_1 = arr1.sum/arr1.size
     average_2 = arr2.sum/arr2.size
     if average_1 > average_2
